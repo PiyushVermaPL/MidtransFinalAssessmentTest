@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Final Assessment Test with Groups_Parallel Execution">
+    <groups>
+        <run>
+            <include name="Regression"/>
+        </run>
+    </groups>
+    <test name="Chrome Browser Testing">
+
+        <parameter name="BrowserNameX" value="CHROME"/>
+        <!--        <parameter name="UrlX" value="https://demo.midtrans.com/"/>-->
+        <!--        <parameter name="ProductNameX" value="Midtrans Pillow"/>-->
+        <!--        <parameter name="ProductCostX" value="20,000"/>-->
+        <!--        <parameter name="AmountAfterApplyPromoX" value="18,000"/>-->
+        <!--        <parameter name="CardNumberValX" value="4811111111111114"/>-->
+        <!--        <parameter name="ExpiryDateValX" value="0222"/>-->
+        <!--        <parameter name="CvvValX" value="123"/>-->
+        <!--        <parameter name="ExpectedMerchantNameX" value="Rubicon Store"/>-->
+        <!--        <parameter name="ExpectedAmountX" value="18000.00"/>-->
+        <!--        <parameter name="ValidOTPX" value="112233"/>-->
+        <!--        <parameter name="InValidOTPX" value="1234321"/>-->
+        <!--        <parameter name="ExpectedSuccessfulMessageX" value="Transaction failed"/>-->
+        <!--        <parameter name="ExpectedFailedMessageX" value="Transaction successful"/>-->
+        <!--        <parameter name="NameX" value="Piyush Verma"/>-->
+        <!--        <parameter name="EmailX" value="verpiyush10@gmail.com"/>-->
+        <!--        <parameter name="PhoneX" value="1234567890"/>-->
+        <!--        <parameter name="CityX" value="Meerut"/>-->
+        <!--        <parameter name="AddressX" value="shastri nagar, Meerut"/>-->
+        <!--        <parameter name="PostalCodeX" value="250001"/>-->
+        <!--        <parameter name="TransactionSuccessStatusX" value="Thank you for your purchase."/>-->
+
+        <classes>
+            <class name="org.assessment.MidtransFinalAssessmentTest"/>
+        </classes>
+    </test>
+
+    <test name="Firefox Browser Testing">
+
+        <parameter name="BrowserNameX" value="FIREFOX"/>
+        <!--        <parameter name="UrlX" value="https://demo.midtrans.com/"/>-->
+        <!--        <parameter name="ProductNameX" value="Midtrans Pillow"/>-->
+        <!--        <parameter name="ProductCostX" value="20,000"/>-->
+        <!--        <parameter name="AmountAfterApplyPromoX" value="18,000"/>-->
+        <!--        <parameter name="CardNumberValX" value="4811111111111114"/>-->
+        <!--        <parameter name="ExpiryDateValX" value="0222"/>-->
+        <!--        <parameter name="CvvValX" value="123"/>-->
+        <!--        <parameter name="ExpectedMerchantNameX" value="Rubicon Store"/>-->
+        <!--        <parameter name="ExpectedAmountX" value="18000.00"/>-->
+        <!--        <parameter name="ValidOTPX" value="112233"/>-->
+        <!--        <parameter name="InValidOTPX" value="1234321"/>-->
+        <!--        <parameter name="ExpectedSuccessfulMessageX" value="Transaction failed"/>-->
+        <!--        <parameter name="ExpectedFailedMessageX" value="Transaction successful"/>-->
+        <!--        <parameter name="NameX" value="Piyush Verma"/>-->
+        <!--        <parameter name="EmailX" value="verpiyush10@gmail.com"/>-->
+        <!--        <parameter name="PhoneX" value="1234567890"/>-->
+        <!--        <parameter name="CityX" value="Meerut"/>-->
+        <!--        <parameter name="AddressX" value="shastri nagar, Meerut"/>-->
+        <!--        <parameter name="PostalCodeX" value="250001"/>-->
+        <!--        <parameter name="TransactionSuccessStatusX" value="Thank you for your purchase."/>-->
+
+        <classes>
+            <class name="org.assessment.MidtransFinalAssessmentTest"/>
+        </classes>
+    </test>
+</suite>

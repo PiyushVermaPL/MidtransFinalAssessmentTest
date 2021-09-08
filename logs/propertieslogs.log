@@ -1,0 +1,404 @@
+[INFO ] 2021-09-09 00:41:06.851 [main] TestNGListener - Chrome Browser Testing
+[INFO ] 2021-09-09 00:41:06.884 [main] TestBase - initializing browser set for Test Execution : 
+[INFO ] 2021-09-09 00:41:06.884 [main] TestBase - browser Name is taking from properties file : 
+[INFO ] 2021-09-09 00:41:06.884 [main] TestBase - opening chrome browser : 
+[INFO ] 2021-09-09 00:41:06.884 [main] TestBase - chrome browser property set : 
+[INFO ] 2021-09-09 00:41:09.605 [main] TestBase - maximizing the browser window : 
+[INFO ] 2021-09-09 00:41:09.744 [main] TestBase - defining implicitlyWait and PageLoad Wait : 
+[INFO ] 2021-09-09 00:41:09.882 [main] TestNGListener - enterURL
+[INFO ] 2021-09-09 00:41:09.882 [main] BaseClass - url is taking from properties file : 
+[INFO ] 2021-09-09 00:41:11.913 [main] TestNGListener - enterURL
+[INFO ] 2021-09-09 00:41:11.921 [main] TestNGListener - VerifyClickingOnBuyNowButtonUserRedirectToTheCheckoutPopUp
+[INFO ] 2021-09-09 00:41:11.961 [main] TestBase - explicit wait for verifying element is using : [[ChromeDriver: chrome on WINDOWS (bdc1474a3b47d120d567a9ab224313b4)] -> xpath: //a[@class='btn buy']]
+[INFO ] 2021-09-09 00:41:12.177 [main] MidTransHomePage - Buy Now Button is Available on Midtrans Home Page : 
+[INFO ] 2021-09-09 00:41:12.202 [main] TestBase - explicit wait for clicking is using : [[ChromeDriver: chrome on WINDOWS (bdc1474a3b47d120d567a9ab224313b4)] -> xpath: //a[@class='btn buy']]
+[INFO ] 2021-09-09 00:41:12.545 [main] TestBase - explicit wait for verifying element is using : [[ChromeDriver: chrome on WINDOWS (bdc1474a3b47d120d567a9ab224313b4)] -> xpath: //div[@class='cart-head']/span[contains(.,'Shopping Cart')]]
+[INFO ] 2021-09-09 00:41:12.757 [main] ShoppingCartPopUp - After clicking on Buy Now button user is redirected to the Checkout popup : 
+[INFO ] 2021-09-09 00:41:12.765 [main] TestNGListener - VerifyClickingOnBuyNowButtonUserRedirectToTheCheckoutPopUp
+[INFO ] 2021-09-09 00:41:12.765 [main] TestNGListener - VerifyMidtransPillowAddedInToCart
+[INFO ] 2021-09-09 00:41:12.765 [main] ShoppingCartPopUp - Product Name & Product Cost is taking from Properties File : 
+[INFO ] 2021-09-09 00:41:13.421 [main] ShoppingCartPopUp - Midtrans Pillow has added into cart with cost of 20000/- : 
+[INFO ] 2021-09-09 00:41:13.421 [main] TestNGListener - VerifyMidtransPillowAddedInToCart
+[INFO ] 2021-09-09 00:41:13.421 [main] TestNGListener - verifyName_Email_Phone_City_Address_PostalCodeOnCheckoutPage
+[INFO ] 2021-09-09 00:41:13.477 [main] ShoppingCartPopUp - Name Label is Present on Check Out PopUp : 
+[INFO ] 2021-09-09 00:41:13.542 [main] ShoppingCartPopUp - Email Label is Present on Check Out PopUp : 
+[INFO ] 2021-09-09 00:41:13.610 [main] ShoppingCartPopUp - PhoneNo Label is Present on Check Out PopUp : 
+[INFO ] 2021-09-09 00:41:13.674 [main] ShoppingCartPopUp - City Label is Present on Check Out PopUp : 
+[INFO ] 2021-09-09 00:41:13.738 [main] ShoppingCartPopUp - Address Label is Present on Check Out PopUp : 
+[INFO ] 2021-09-09 00:41:13.802 [main] ShoppingCartPopUp - PostalCode Label is Present on Check Out PopUp : 
+[INFO ] 2021-09-09 00:41:13.802 [main] TestNGListener - verifyName_Email_Phone_City_Address_PostalCodeOnCheckoutPage
+[INFO ] 2021-09-09 00:41:13.802 [main] TestNGListener - verifyName_Email_Phone_City_Address_PostalCodeFieldsAreEditableAndUserCanEnterDetails
+[INFO ] 2021-09-09 00:41:13.802 [main] ShoppingCartPopUp - Name is taking from Properties File : 
+[INFO ] 2021-09-09 00:41:13.850 [main] TestBase - explicit wait for sendKeys is using : [[ChromeDriver: chrome on WINDOWS (bdc1474a3b47d120d567a9ab224313b4)] -> xpath: ((//table[@class='table'])[2]//td[@class='input']//input[@type='text'])[1]]
+[INFO ] 2021-09-09 00:41:14.311 [main] ShoppingCartPopUp - Name field is editable and user can enter Name in it : 
+[INFO ] 2021-09-09 00:41:14.311 [main] ShoppingCartPopUp - Email is taking from Properties File : 
+[INFO ] 2021-09-09 00:41:14.355 [main] TestBase - explicit wait for sendKeys is using : [[ChromeDriver: chrome on WINDOWS (bdc1474a3b47d120d567a9ab224313b4)] -> xpath: (//table[@class='table'])[2]//td[@class='input']//input[@type='email']]
+[INFO ] 2021-09-09 00:41:14.867 [main] ShoppingCartPopUp - Email field is editable and user can enter Email in it : 
+[INFO ] 2021-09-09 00:41:14.867 [main] ShoppingCartPopUp - Phone Number is taking from Properties File : 
+[INFO ] 2021-09-09 00:41:14.898 [main] TestBase - explicit wait for sendKeys is using : [[ChromeDriver: chrome on WINDOWS (bdc1474a3b47d120d567a9ab224313b4)] -> xpath: ((//table[@class='table'])[2]//td[@class='input']//input[@type='text'])[2]]
+[INFO ] 2021-09-09 00:41:15.418 [main] ShoppingCartPopUp - PhoneNo field is editable and user can enter PhoneNo in it : 
+[INFO ] 2021-09-09 00:41:15.418 [main] ShoppingCartPopUp - City is taking from Properties File : 
+[INFO ] 2021-09-09 00:41:15.450 [main] TestBase - explicit wait for sendKeys is using : [[ChromeDriver: chrome on WINDOWS (bdc1474a3b47d120d567a9ab224313b4)] -> xpath: ((//table[@class='table'])[2]//td[@class='input']//input[@type='text'])[3]]
+[INFO ] 2021-09-09 00:41:15.810 [main] ShoppingCartPopUp - City field is editable and user can enter City in it : 
+[INFO ] 2021-09-09 00:41:15.810 [main] ShoppingCartPopUp - Address is taking from Properties File : 
+[INFO ] 2021-09-09 00:41:15.834 [main] TestBase - explicit wait for sendKeys is using : [[ChromeDriver: chrome on WINDOWS (bdc1474a3b47d120d567a9ab224313b4)] -> xpath: (//table[@class='table'])[2]//td[@class='input']//textarea]
+[INFO ] 2021-09-09 00:41:16.260 [main] ShoppingCartPopUp - Address field is editable and user can enter Address in it : 
+[INFO ] 2021-09-09 00:41:16.260 [main] ShoppingCartPopUp - Postal Code is taking from Properties File : 
+[INFO ] 2021-09-09 00:41:16.284 [main] TestBase - explicit wait for sendKeys is using : [[ChromeDriver: chrome on WINDOWS (bdc1474a3b47d120d567a9ab224313b4)] -> xpath: ((//table[@class='table'])[2]//td[@class='input']//input[@type='text'])[4]]
+[INFO ] 2021-09-09 00:41:16.674 [main] ShoppingCartPopUp - PostalCode field is editable and user can enter PostalCode in it : 
+[INFO ] 2021-09-09 00:41:16.674 [main] TestNGListener - verifyName_Email_Phone_City_Address_PostalCodeFieldsAreEditableAndUserCanEnterDetails
+[INFO ] 2021-09-09 00:41:16.674 [main] TestNGListener - verifyClickingOnCheckoutButtonUserIsRedirectedOnOrderSummaryPopUp
+[INFO ] 2021-09-09 00:41:16.714 [main] TestBase - explicit wait for clicking is using : [[ChromeDriver: chrome on WINDOWS (bdc1474a3b47d120d567a9ab224313b4)] -> xpath: //div[@class='cart-checkout']]
+[INFO ] 2021-09-09 00:41:16.944 [main] TestBase - pause execution for 1 : 
+[INFO ] 2021-09-09 00:41:18.003 [main] TestBase - pause execution for 1 : 
+[INFO ] 2021-09-09 00:41:19.042 [main] TestBase - explicit wait for verifying element is using : [[ChromeDriver: chrome on WINDOWS (bdc1474a3b47d120d567a9ab224313b4)] -> xpath: //div[@class='header-content']/span[contains(.,'Order Summary')]]
+[INFO ] 2021-09-09 00:41:19.165 [main] OrderSummaryScreenPopUp - User is redirected on Order Summary popup after clicked on Checkout button : 
+[INFO ] 2021-09-09 00:41:19.165 [main] TestNGListener - verifyClickingOnCheckoutButtonUserIsRedirectedOnOrderSummaryPopUp
+[INFO ] 2021-09-09 00:41:19.165 [main] TestNGListener - verifyProductDetailsOnOrderSummeryPopUpPriceAndProductName
+[INFO ] 2021-09-09 00:41:19.165 [main] OrderSummaryScreenPopUp - Product Name & Product Cost is taking from Properties File : 
+[INFO ] 2021-09-09 00:41:19.227 [main] OrderSummaryScreenPopUp - Valid Product Name is displayed on Order Summary PopUp : 
+[INFO ] 2021-09-09 00:41:19.275 [main] OrderSummaryScreenPopUp - Valid Product Price is displayed on Order Summary PopUp : 
+[INFO ] 2021-09-09 00:41:19.275 [main] TestNGListener - verifyProductDetailsOnOrderSummeryPopUpPriceAndProductName
+[INFO ] 2021-09-09 00:41:19.283 [main] TestNGListener - verifyClickingOnContinueButtonOnOrderSummeryUserIsRedirectToTheSelectPaymentPopUp
+[INFO ] 2021-09-09 00:41:19.315 [main] TestBase - explicit wait for clicking is using : [[ChromeDriver: chrome on WINDOWS (bdc1474a3b47d120d567a9ab224313b4)] -> xpath: //a[@class='button-main-content']]
+[INFO ] 2021-09-09 00:41:19.711 [main] TestBase - explicit wait for verifying element is using : [[ChromeDriver: chrome on WINDOWS (bdc1474a3b47d120d567a9ab224313b4)] -> xpath: //p[contains(.,'Select Payment')]]
+[INFO ] 2021-09-09 00:41:19.863 [main] SelectPaymentPopUp1 - User redirected to the Select payment Page after clicking on continue button on order summery : 
+[INFO ] 2021-09-09 00:41:19.863 [main] TestNGListener - verifyClickingOnContinueButtonOnOrderSummeryUserIsRedirectToTheSelectPaymentPopUp
+[INFO ] 2021-09-09 00:41:19.863 [main] TestNGListener - verifyPaymentOptionsListedOnPaymentPopUp
+[INFO ] 2021-09-09 00:41:19.983 [main] SelectPaymentPopUp1 - Credit/Debit Card payment option is available in payment mode Options : 
+[INFO ] 2021-09-09 00:41:20.047 [main] SelectPaymentPopUp1 - ATM/Bank Transfer payment option is available in payment mode Options : 
+[INFO ] 2021-09-09 00:41:20.114 [main] SelectPaymentPopUp1 - GoPay/other e-Wallets payment option is available in payment mode Options : 
+[INFO ] 2021-09-09 00:41:20.178 [main] SelectPaymentPopUp1 - ShopeePay/other e-Wallets payment option is available in payment mode Options : 
+[INFO ] 2021-09-09 00:41:20.235 [main] SelectPaymentPopUp1 - KlikBCA payment option is available in payment mode Options : 
+[INFO ] 2021-09-09 00:41:20.299 [main] SelectPaymentPopUp1 - BCA KlikPay payment option is available in payment mode Options : 
+[INFO ] 2021-09-09 00:41:20.351 [main] SelectPaymentPopUp1 - OCTO Clicks payment option is available in payment mode Options : 
+[INFO ] 2021-09-09 00:41:20.407 [main] SelectPaymentPopUp1 - Danamon Online Banking payment option is available in payment mode Options : 
+[INFO ] 2021-09-09 00:41:20.463 [main] SelectPaymentPopUp1 - e-Pay BRI payment option is available in payment mode Options : 
+[INFO ] 2021-09-09 00:41:20.527 [main] SelectPaymentPopUp1 - LINE Pay e-cash | mandiri e-cash payment option is available in payment mode Options : 
+[INFO ] 2021-09-09 00:41:20.607 [main] SelectPaymentPopUp1 - Telkomsel Cash payment option is available in payment mode Options : 
+[INFO ] 2021-09-09 00:41:20.671 [main] SelectPaymentPopUp1 - Indomaret payment option is available in payment mode Options : 
+[INFO ] 2021-09-09 00:41:20.736 [main] SelectPaymentPopUp1 - Alfa Group payment option is available in payment mode Options : 
+[INFO ] 2021-09-09 00:41:20.793 [main] SelectPaymentPopUp1 - Akulaku payment option is available in payment mode Options : 
+[INFO ] 2021-09-09 00:41:20.793 [main] TestNGListener - verifyPaymentOptionsListedOnPaymentPopUp
+[INFO ] 2021-09-09 00:41:20.793 [main] TestNGListener - verifyClickingOnCreditDebitCardPaymentMethodUserIsRedirectedToTheCardDetailsPopUp
+[INFO ] 2021-09-09 00:41:20.825 [main] TestBase - explicit wait for clicking is using : [[ChromeDriver: chrome on WINDOWS (bdc1474a3b47d120d567a9ab224313b4)] -> xpath: //div[@class='list-content']//div[contains(.,'Credit/Debit Card')]]
+[INFO ] 2021-09-09 00:41:21.199 [main] TestBase - explicit wait for verifying element is using : [[ChromeDriver: chrome on WINDOWS (bdc1474a3b47d120d567a9ab224313b4)] -> xpath: //p[@class='text-page-title-content' and contains(.,'Credit/Debit Card')]]
+[INFO ] 2021-09-09 00:41:21.315 [main] CreditDebitCardDetailsScreenPopUp - User redirected to card details screen after clicking on Credit/Debit Card payment method : 
+[INFO ] 2021-09-09 00:41:21.315 [main] TestNGListener - verifyClickingOnCreditDebitCardPaymentMethodUserIsRedirectedToTheCardDetailsPopUp
+[INFO ] 2021-09-09 00:41:21.323 [main] TestNGListener - verifyOrderAmountOnCardDetailsPopUpAndApplyCouponCodeAndValidateChangesInAmount
+[INFO ] 2021-09-09 00:41:21.323 [main] CreditDebitCardDetailsScreenPopUp - Details is taking From Properties File : 
+[INFO ] 2021-09-09 00:41:21.707 [main] CreditDebitCardDetailsScreenPopUp - Before apply promo coupon Amount on card details screen is same as order Amount : 
+[INFO ] 2021-09-09 00:41:21.858 [main] CreditDebitCardDetailsScreenPopUp - After apply promo coupon Amount on card details screen is reflected by 2000 : 
+[INFO ] 2021-09-09 00:41:21.858 [main] TestNGListener - verifyOrderAmountOnCardDetailsPopUpAndApplyCouponCodeAndValidateChangesInAmount
+[INFO ] 2021-09-09 00:41:21.858 [main] TestNGListener - enterValidCardDetails
+[INFO ] 2021-09-09 00:41:21.858 [main] CreditDebitCardDetailsScreenPopUp - Card details is taking from Properties File : 
+[INFO ] 2021-09-09 00:41:21.890 [main] TestBase - explicit wait for sendKeys is using : [[ChromeDriver: chrome on WINDOWS (bdc1474a3b47d120d567a9ab224313b4)] -> xpath: //input[@name='cardnumber']]
+[INFO ] 2021-09-09 00:41:22.323 [main] TestBase - explicit wait for sendKeys is using : [[ChromeDriver: chrome on WINDOWS (bdc1474a3b47d120d567a9ab224313b4)] -> xpath: //input[@placeholder='MM / YY']]
+[INFO ] 2021-09-09 00:41:22.653 [main] TestBase - explicit wait for sendKeys is using : [[ChromeDriver: chrome on WINDOWS (bdc1474a3b47d120d567a9ab224313b4)] -> xpath: //div[@class='input-group col-xs-5']/input]
+[INFO ] 2021-09-09 00:41:22.913 [main] TestNGListener - enterValidCardDetails
+[INFO ] 2021-09-09 00:41:22.913 [main] TestNGListener - verifyClickingOnPayNowButtonUserIsRedirectedToTheBankPaymentScreenPopUpAndVerifyExistingDetails
+[INFO ] 2021-09-09 00:41:22.953 [main] TestBase - explicit wait for clicking is using : [[ChromeDriver: chrome on WINDOWS (bdc1474a3b47d120d567a9ab224313b4)] -> xpath: //a[@class='button-main-content']]
+[INFO ] 2021-09-09 00:41:23.230 [main] TestBase - pause execution for 2 : 
+[INFO ] 2021-09-09 00:41:25.230 [main] TestBase - pause execution for 1 : 
+[INFO ] 2021-09-09 00:41:26.455 [main] TestBase - pause execution for 1 : 
+[INFO ] 2021-09-09 00:41:27.491 [main] TestBase - pause execution for 1 : 
+[INFO ] 2021-09-09 00:41:28.537 [main] TestBase - explicit wait for verifying element is using : [[ChromeDriver: chrome on WINDOWS (bdc1474a3b47d120d567a9ab224313b4)] -> xpath: //h1[contains(.,'Issuing Bank')]]
+[INFO ] 2021-09-09 00:41:28.665 [main] BankPaymentScreenPopUp - User is redirected to the Bank Payment Screen PopUp after clicking on Payment Now Button : 
+[INFO ] 2021-09-09 00:41:28.856 [main] BankPaymentScreenPopUp - Details is taking from Properties File : 
+[INFO ] 2021-09-09 00:41:28.856 [main] BankPaymentScreenPopUp - Merchant name is correct on Bank Payment Screen PopUp : 
+[INFO ] 2021-09-09 00:41:28.856 [main] BankPaymentScreenPopUp - Amount is correct on Bank Payment Screen PopUp : 
+[INFO ] 2021-09-09 00:41:28.856 [main] BankPaymentScreenPopUp - Last four digit of card is correct on Bank Payment Screen PopUp : 
+[INFO ] 2021-09-09 00:41:28.856 [main] BankPaymentScreenPopUp - Valid OTP is taking from Properties File : 
+[INFO ] 2021-09-09 00:41:28.888 [main] TestBase - explicit wait for sendKeys is using : [[ChromeDriver: chrome on WINDOWS (bdc1474a3b47d120d567a9ab224313b4)] -> xpath: //input[@id='PaRes']]
+[INFO ] 2021-09-09 00:41:29.205 [main] TestNGListener - verifyClickingOnPayNowButtonUserIsRedirectedToTheBankPaymentScreenPopUpAndVerifyExistingDetails
+[INFO ] 2021-09-09 00:41:29.205 [main] TestNGListener - verifyClickingOnOKButtonWithValidOTPUserRedirectedToTheOrderSuccessfulScreenPopUp
+[INFO ] 2021-09-09 00:41:29.237 [main] TestBase - explicit wait for clicking is using : [[ChromeDriver: chrome on WINDOWS (bdc1474a3b47d120d567a9ab224313b4)] -> xpath: //button[@class='btn btn-sm btn-success']]
+[INFO ] 2021-09-09 00:41:30.793 [main] TestBase - pause execution for 1 : 
+[INFO ] 2021-09-09 00:41:31.855 [main] TestBase - pause execution for 1 : 
+[INFO ] 2021-09-09 00:41:32.935 [main] OrderSuccessfulScreenPopUp - User is redirected to the order successful screen after clicking on OK button with Valid OTP (112233) : 
+[INFO ] 2021-09-09 00:41:32.935 [main] TestBase - pause execution for 5 : 
+[INFO ] 2021-09-09 00:41:37.949 [main] TestNGListener - verifyClickingOnOKButtonWithValidOTPUserRedirectedToTheOrderSuccessfulScreenPopUp
+[INFO ] 2021-09-09 00:41:37.949 [main] TestNGListener - verifyUserSuccessfullyOrderedProduct
+[INFO ] 2021-09-09 00:41:38.447 [main] TestBase - pause execution for 1 : 
+[INFO ] 2021-09-09 00:41:39.464 [main] TestBase - pause execution for 1 : 
+[INFO ] 2021-09-09 00:41:40.538 [main] MidTransHomePage - Transaction Success Status is Displayed : 
+[INFO ] 2021-09-09 00:41:40.538 [main] MidTransHomePage - Transaction Success Status is taking from Properties File : 
+[INFO ] 2021-09-09 00:41:40.579 [main] MidTransHomePage - Transaction Success Status is as Expected : 
+[INFO ] 2021-09-09 00:41:40.587 [main] TestBase - pause execution for 5 : 
+[INFO ] 2021-09-09 00:41:45.588 [main] TestNGListener - verifyUserSuccessfullyOrderedProduct
+[INFO ] 2021-09-09 00:41:45.596 [main] TestNGListener - verifyClickingOnOKButtonWithInvalidOTPUserRedirectedToTheOrderFailedScreenPopUp
+[INFO ] 2021-09-09 00:41:45.620 [main] TestBase - explicit wait for verifying element is using : [[ChromeDriver: chrome on WINDOWS (bdc1474a3b47d120d567a9ab224313b4)] -> xpath: //a[@class='btn buy']]
+[INFO ] 2021-09-09 00:41:45.754 [main] MidTransHomePage - Buy Now Button is Available on Midtrans Home Page : 
+[INFO ] 2021-09-09 00:41:45.754 [main] TestBase - pause execution for 2 : 
+[INFO ] 2021-09-09 00:41:47.782 [main] TestBase - explicit wait for clicking is using : [[ChromeDriver: chrome on WINDOWS (bdc1474a3b47d120d567a9ab224313b4)] -> xpath: //a[@class='btn buy']]
+[INFO ] 2021-09-09 00:41:48.002 [main] ShoppingCartPopUp - Name is taking from Properties File : 
+[INFO ] 2021-09-09 00:41:48.038 [main] TestBase - explicit wait for sendKeys is using : [[ChromeDriver: chrome on WINDOWS (bdc1474a3b47d120d567a9ab224313b4)] -> xpath: ((//table[@class='table'])[2]//td[@class='input']//input[@type='text'])[1]]
+[INFO ] 2021-09-09 00:41:48.475 [main] ShoppingCartPopUp - Name field is editable and user can enter Name in it : 
+[INFO ] 2021-09-09 00:41:48.475 [main] ShoppingCartPopUp - Email is taking from Properties File : 
+[INFO ] 2021-09-09 00:41:48.499 [main] TestBase - explicit wait for sendKeys is using : [[ChromeDriver: chrome on WINDOWS (bdc1474a3b47d120d567a9ab224313b4)] -> xpath: (//table[@class='table'])[2]//td[@class='input']//input[@type='email']]
+[INFO ] 2021-09-09 00:41:48.925 [main] ShoppingCartPopUp - Email field is editable and user can enter Email in it : 
+[INFO ] 2021-09-09 00:41:48.925 [main] ShoppingCartPopUp - Phone Number is taking from Properties File : 
+[INFO ] 2021-09-09 00:41:48.949 [main] TestBase - explicit wait for sendKeys is using : [[ChromeDriver: chrome on WINDOWS (bdc1474a3b47d120d567a9ab224313b4)] -> xpath: ((//table[@class='table'])[2]//td[@class='input']//input[@type='text'])[2]]
+[INFO ] 2021-09-09 00:41:49.323 [main] ShoppingCartPopUp - PhoneNo field is editable and user can enter PhoneNo in it : 
+[INFO ] 2021-09-09 00:41:49.323 [main] ShoppingCartPopUp - City is taking from Properties File : 
+[INFO ] 2021-09-09 00:41:49.349 [main] TestBase - explicit wait for sendKeys is using : [[ChromeDriver: chrome on WINDOWS (bdc1474a3b47d120d567a9ab224313b4)] -> xpath: ((//table[@class='table'])[2]//td[@class='input']//input[@type='text'])[3]]
+[INFO ] 2021-09-09 00:41:49.680 [main] ShoppingCartPopUp - City field is editable and user can enter City in it : 
+[INFO ] 2021-09-09 00:41:49.680 [main] ShoppingCartPopUp - Address is taking from Properties File : 
+[INFO ] 2021-09-09 00:41:49.704 [main] TestBase - explicit wait for sendKeys is using : [[ChromeDriver: chrome on WINDOWS (bdc1474a3b47d120d567a9ab224313b4)] -> xpath: (//table[@class='table'])[2]//td[@class='input']//textarea]
+[INFO ] 2021-09-09 00:41:50.140 [main] ShoppingCartPopUp - Address field is editable and user can enter Address in it : 
+[INFO ] 2021-09-09 00:41:50.140 [main] ShoppingCartPopUp - Postal Code is taking from Properties File : 
+[INFO ] 2021-09-09 00:41:50.164 [main] TestBase - explicit wait for sendKeys is using : [[ChromeDriver: chrome on WINDOWS (bdc1474a3b47d120d567a9ab224313b4)] -> xpath: ((//table[@class='table'])[2]//td[@class='input']//input[@type='text'])[4]]
+[INFO ] 2021-09-09 00:41:50.530 [main] ShoppingCartPopUp - PostalCode field is editable and user can enter PostalCode in it : 
+[INFO ] 2021-09-09 00:41:50.530 [main] TestBase - pause execution for 2 : 
+[INFO ] 2021-09-09 00:41:52.570 [main] TestBase - explicit wait for clicking is using : [[ChromeDriver: chrome on WINDOWS (bdc1474a3b47d120d567a9ab224313b4)] -> xpath: //div[@class='cart-checkout']]
+[INFO ] 2021-09-09 00:41:52.772 [main] TestBase - pause execution for 1 : 
+[INFO ] 2021-09-09 00:41:53.804 [main] TestBase - pause execution for 1 : 
+[INFO ] 2021-09-09 00:41:54.806 [main] TestBase - pause execution for 2 : 
+[INFO ] 2021-09-09 00:41:56.849 [main] TestBase - explicit wait for clicking is using : [[ChromeDriver: chrome on WINDOWS (bdc1474a3b47d120d567a9ab224313b4)] -> xpath: //a[@class='button-main-content']]
+[INFO ] 2021-09-09 00:41:57.163 [main] TestBase - pause execution for 2 : 
+[INFO ] 2021-09-09 00:41:59.207 [main] TestBase - explicit wait for clicking is using : [[ChromeDriver: chrome on WINDOWS (bdc1474a3b47d120d567a9ab224313b4)] -> xpath: //div[@class='list-content']//div[contains(.,'Credit/Debit Card')]]
+[INFO ] 2021-09-09 00:41:59.591 [main] CreditDebitCardDetailsScreenPopUp - Card details is taking from Properties File : 
+[INFO ] 2021-09-09 00:41:59.623 [main] TestBase - explicit wait for sendKeys is using : [[ChromeDriver: chrome on WINDOWS (bdc1474a3b47d120d567a9ab224313b4)] -> xpath: //input[@name='cardnumber']]
+[INFO ] 2021-09-09 00:42:00.217 [main] TestBase - explicit wait for sendKeys is using : [[ChromeDriver: chrome on WINDOWS (bdc1474a3b47d120d567a9ab224313b4)] -> xpath: //input[@placeholder='MM / YY']]
+[INFO ] 2021-09-09 00:42:00.513 [main] TestBase - explicit wait for sendKeys is using : [[ChromeDriver: chrome on WINDOWS (bdc1474a3b47d120d567a9ab224313b4)] -> xpath: //div[@class='input-group col-xs-5']/input]
+[INFO ] 2021-09-09 00:42:00.792 [main] TestBase - pause execution for 2 : 
+[INFO ] 2021-09-09 00:42:02.827 [main] TestBase - explicit wait for clicking is using : [[ChromeDriver: chrome on WINDOWS (bdc1474a3b47d120d567a9ab224313b4)] -> xpath: //a[@class='button-main-content']]
+[INFO ] 2021-09-09 00:42:03.083 [main] TestBase - pause execution for 1 : 
+[INFO ] 2021-09-09 00:42:04.136 [main] TestBase - pause execution for 1 : 
+[INFO ] 2021-09-09 00:42:05.278 [main] TestBase - pause execution for 1 : 
+[INFO ] 2021-09-09 00:42:06.291 [main] BankPaymentScreenPopUp - Invalid OTP is taking from Properties FIle : 
+[INFO ] 2021-09-09 00:42:06.322 [main] TestBase - explicit wait for sendKeys is using : [[ChromeDriver: chrome on WINDOWS (bdc1474a3b47d120d567a9ab224313b4)] -> xpath: //input[@id='PaRes']]
+[INFO ] 2021-09-09 00:42:06.642 [main] TestBase - pause execution for 2 : 
+[INFO ] 2021-09-09 00:42:08.689 [main] TestBase - explicit wait for clicking is using : [[ChromeDriver: chrome on WINDOWS (bdc1474a3b47d120d567a9ab224313b4)] -> xpath: //button[@class='btn btn-sm btn-success']]
+[INFO ] 2021-09-09 00:42:09.041 [main] TestBase - pause execution for 1 : 
+[INFO ] 2021-09-09 00:42:10.096 [main] TestBase - pause execution for 1 : 
+[INFO ] 2021-09-09 00:42:11.136 [main] TestBase - explicit wait for verifying element is using : [[ChromeDriver: chrome on WINDOWS (bdc1474a3b47d120d567a9ab224313b4)] -> xpath: //div[@class='text-failed text-bold']/span]
+[INFO ] 2021-09-09 00:42:11.242 [main] OrderFailedScreenPopUp - User is redirected to the order failed screen after clicking on OK button with Invalid OTP (1234321) : 
+[INFO ] 2021-09-09 00:42:11.242 [main] TestBase - pause execution for 5 : 
+[INFO ] 2021-09-09 00:42:16.253 [main] TestNGListener - verifyClickingOnOKButtonWithInvalidOTPUserRedirectedToTheOrderFailedScreenPopUp
+[INFO ] 2021-09-09 00:42:16.253 [main] TestNGListener - verifyClickingOnCancelButtonUserShouldRedirectedToTheOrderFailedScreenPopUp
+[INFO ] 2021-09-09 00:42:16.285 [main] TestBase - explicit wait for clicking is using : [[ChromeDriver: chrome on WINDOWS (bdc1474a3b47d120d567a9ab224313b4)] -> xpath: //a[@class='button-main-content']]
+[INFO ] 2021-09-09 00:42:16.580 [main] TestBase - pause execution for 2 : 
+[INFO ] 2021-09-09 00:42:18.619 [main] TestBase - explicit wait for clicking is using : [[ChromeDriver: chrome on WINDOWS (bdc1474a3b47d120d567a9ab224313b4)] -> xpath: //div[@class='list-content']//div[contains(.,'Credit/Debit Card')]]
+[INFO ] 2021-09-09 00:42:18.962 [main] CreditDebitCardDetailsScreenPopUp - Card details is taking from Properties File : 
+[INFO ] 2021-09-09 00:42:18.994 [main] TestBase - explicit wait for sendKeys is using : [[ChromeDriver: chrome on WINDOWS (bdc1474a3b47d120d567a9ab224313b4)] -> xpath: //input[@name='cardnumber']]
+[INFO ] 2021-09-09 00:42:19.458 [main] TestBase - explicit wait for sendKeys is using : [[ChromeDriver: chrome on WINDOWS (bdc1474a3b47d120d567a9ab224313b4)] -> xpath: //input[@placeholder='MM / YY']]
+[INFO ] 2021-09-09 00:42:19.768 [main] TestBase - explicit wait for sendKeys is using : [[ChromeDriver: chrome on WINDOWS (bdc1474a3b47d120d567a9ab224313b4)] -> xpath: //div[@class='input-group col-xs-5']/input]
+[INFO ] 2021-09-09 00:42:20.073 [main] TestBase - pause execution for 2 : 
+[INFO ] 2021-09-09 00:42:22.104 [main] TestBase - explicit wait for clicking is using : [[ChromeDriver: chrome on WINDOWS (bdc1474a3b47d120d567a9ab224313b4)] -> xpath: //a[@class='button-main-content']]
+[INFO ] 2021-09-09 00:42:22.360 [main] TestBase - pause execution for 1 : 
+[INFO ] 2021-09-09 00:42:23.406 [main] TestBase - pause execution for 1 : 
+[INFO ] 2021-09-09 00:42:24.504 [main] TestBase - pause execution for 1 : 
+[INFO ] 2021-09-09 00:42:25.507 [main] BankPaymentScreenPopUp - Invalid OTP is taking from Properties FIle : 
+[INFO ] 2021-09-09 00:42:25.539 [main] TestBase - explicit wait for sendKeys is using : [[ChromeDriver: chrome on WINDOWS (bdc1474a3b47d120d567a9ab224313b4)] -> xpath: //input[@id='PaRes']]
+[INFO ] 2021-09-09 00:42:25.833 [main] TestBase - pause execution for 2 : 
+[INFO ] 2021-09-09 00:42:27.898 [main] TestBase - explicit wait for clicking is using : [[ChromeDriver: chrome on WINDOWS (bdc1474a3b47d120d567a9ab224313b4)] -> xpath: //button[@name='cancel']]
+[INFO ] 2021-09-09 00:42:28.238 [main] TestBase - pause execution for 1 : 
+[INFO ] 2021-09-09 00:42:29.292 [main] TestBase - pause execution for 1 : 
+[INFO ] 2021-09-09 00:42:30.328 [main] TestBase - explicit wait for verifying element is using : [[ChromeDriver: chrome on WINDOWS (bdc1474a3b47d120d567a9ab224313b4)] -> xpath: //div[@class='text-failed text-bold']/span]
+[INFO ] 2021-09-09 00:42:30.456 [main] OrderFailedScreenPopUp - User is redirected to the order failed screen after clicking on OK button with Invalid OTP (1234321) : 
+[INFO ] 2021-09-09 00:42:30.456 [main] TestBase - pause execution for 2 : 
+[INFO ] 2021-09-09 00:42:32.468 [main] TestNGListener - verifyClickingOnCancelButtonUserShouldRedirectedToTheOrderFailedScreenPopUp
+[INFO ] 2021-09-09 00:42:33.567 [main] TestNGListener - Chrome Browser Testing
+[INFO ] 2021-09-09 00:42:33.567 [main] TestNGListener - Firefox Browser Testing
+[INFO ] 2021-09-09 00:42:33.567 [main] TestBase - initializing browser set for Test Execution : 
+[INFO ] 2021-09-09 00:42:33.567 [main] TestBase - browser Name is taking from properties file : 
+[INFO ] 2021-09-09 00:42:33.567 [main] TestBase - opening firefox browser : 
+[INFO ] 2021-09-09 00:42:33.567 [main] TestBase - firefox browser property set : 
+[INFO ] 2021-09-09 00:42:40.202 [main] TestBase - maximizing the browser window : 
+[INFO ] 2021-09-09 00:42:40.218 [main] TestBase - defining implicitlyWait and PageLoad Wait : 
+[INFO ] 2021-09-09 00:42:40.242 [main] TestNGListener - enterURL
+[INFO ] 2021-09-09 00:42:40.242 [main] BaseClass - url is taking from properties file : 
+[INFO ] 2021-09-09 00:42:42.182 [main] TestNGListener - enterURL
+[INFO ] 2021-09-09 00:42:42.183 [main] TestNGListener - VerifyClickingOnBuyNowButtonUserRedirectToTheCheckoutPopUp
+[INFO ] 2021-09-09 00:42:42.249 [main] TestBase - explicit wait for verifying element is using : [[FirefoxDriver: firefox on WINDOWS (40ddd8b1-c480-4b02-8015-d5911f9a6022)] -> xpath: //a[@class='btn buy']]
+[INFO ] 2021-09-09 00:42:42.393 [main] MidTransHomePage - Buy Now Button is Available on Midtrans Home Page : 
+[INFO ] 2021-09-09 00:42:42.417 [main] TestBase - explicit wait for clicking is using : [[FirefoxDriver: firefox on WINDOWS (40ddd8b1-c480-4b02-8015-d5911f9a6022)] -> xpath: //a[@class='btn buy']]
+[INFO ] 2021-09-09 00:42:43.165 [main] TestBase - explicit wait for verifying element is using : [[FirefoxDriver: firefox on WINDOWS (40ddd8b1-c480-4b02-8015-d5911f9a6022)] -> xpath: //div[@class='cart-head']/span[contains(.,'Shopping Cart')]]
+[INFO ] 2021-09-09 00:42:43.261 [main] ShoppingCartPopUp - After clicking on Buy Now button user is redirected to the Checkout popup : 
+[INFO ] 2021-09-09 00:42:43.261 [main] TestNGListener - VerifyClickingOnBuyNowButtonUserRedirectToTheCheckoutPopUp
+[INFO ] 2021-09-09 00:42:43.269 [main] TestNGListener - VerifyMidtransPillowAddedInToCart
+[INFO ] 2021-09-09 00:42:43.269 [main] ShoppingCartPopUp - Product Name & Product Cost is taking from Properties File : 
+[INFO ] 2021-09-09 00:42:43.333 [main] ShoppingCartPopUp - Midtrans Pillow has added into cart with cost of 20000/- : 
+[INFO ] 2021-09-09 00:42:43.333 [main] TestNGListener - VerifyMidtransPillowAddedInToCart
+[INFO ] 2021-09-09 00:42:43.333 [main] TestNGListener - verifyName_Email_Phone_City_Address_PostalCodeOnCheckoutPage
+[INFO ] 2021-09-09 00:42:43.389 [main] ShoppingCartPopUp - Name Label is Present on Check Out PopUp : 
+[INFO ] 2021-09-09 00:42:43.453 [main] ShoppingCartPopUp - Email Label is Present on Check Out PopUp : 
+[INFO ] 2021-09-09 00:42:43.497 [main] ShoppingCartPopUp - PhoneNo Label is Present on Check Out PopUp : 
+[INFO ] 2021-09-09 00:42:43.576 [main] ShoppingCartPopUp - City Label is Present on Check Out PopUp : 
+[INFO ] 2021-09-09 00:42:43.645 [main] ShoppingCartPopUp - Address Label is Present on Check Out PopUp : 
+[INFO ] 2021-09-09 00:42:43.701 [main] ShoppingCartPopUp - PostalCode Label is Present on Check Out PopUp : 
+[INFO ] 2021-09-09 00:42:43.701 [main] TestNGListener - verifyName_Email_Phone_City_Address_PostalCodeOnCheckoutPage
+[INFO ] 2021-09-09 00:42:43.701 [main] TestNGListener - verifyName_Email_Phone_City_Address_PostalCodeFieldsAreEditableAndUserCanEnterDetails
+[INFO ] 2021-09-09 00:42:43.701 [main] ShoppingCartPopUp - Name is taking from Properties File : 
+[INFO ] 2021-09-09 00:42:43.725 [main] TestBase - explicit wait for sendKeys is using : [[FirefoxDriver: firefox on WINDOWS (40ddd8b1-c480-4b02-8015-d5911f9a6022)] -> xpath: ((//table[@class='table'])[2]//td[@class='input']//input[@type='text'])[1]]
+[INFO ] 2021-09-09 00:42:44.164 [main] ShoppingCartPopUp - Name field is editable and user can enter Name in it : 
+[INFO ] 2021-09-09 00:42:44.164 [main] ShoppingCartPopUp - Email is taking from Properties File : 
+[INFO ] 2021-09-09 00:42:44.188 [main] TestBase - explicit wait for sendKeys is using : [[FirefoxDriver: firefox on WINDOWS (40ddd8b1-c480-4b02-8015-d5911f9a6022)] -> xpath: (//table[@class='table'])[2]//td[@class='input']//input[@type='email']]
+[INFO ] 2021-09-09 00:42:44.538 [main] ShoppingCartPopUp - Email field is editable and user can enter Email in it : 
+[INFO ] 2021-09-09 00:42:44.538 [main] ShoppingCartPopUp - Phone Number is taking from Properties File : 
+[INFO ] 2021-09-09 00:42:44.546 [main] TestBase - explicit wait for sendKeys is using : [[FirefoxDriver: firefox on WINDOWS (40ddd8b1-c480-4b02-8015-d5911f9a6022)] -> xpath: ((//table[@class='table'])[2]//td[@class='input']//input[@type='text'])[2]]
+[INFO ] 2021-09-09 00:42:44.796 [main] ShoppingCartPopUp - PhoneNo field is editable and user can enter PhoneNo in it : 
+[INFO ] 2021-09-09 00:42:44.796 [main] ShoppingCartPopUp - City is taking from Properties File : 
+[INFO ] 2021-09-09 00:42:44.804 [main] TestBase - explicit wait for sendKeys is using : [[FirefoxDriver: firefox on WINDOWS (40ddd8b1-c480-4b02-8015-d5911f9a6022)] -> xpath: ((//table[@class='table'])[2]//td[@class='input']//input[@type='text'])[3]]
+[INFO ] 2021-09-09 00:42:45.036 [main] ShoppingCartPopUp - City field is editable and user can enter City in it : 
+[INFO ] 2021-09-09 00:42:45.036 [main] ShoppingCartPopUp - Address is taking from Properties File : 
+[INFO ] 2021-09-09 00:42:45.044 [main] TestBase - explicit wait for sendKeys is using : [[FirefoxDriver: firefox on WINDOWS (40ddd8b1-c480-4b02-8015-d5911f9a6022)] -> xpath: (//table[@class='table'])[2]//td[@class='input']//textarea]
+[INFO ] 2021-09-09 00:42:45.520 [main] ShoppingCartPopUp - Address field is editable and user can enter Address in it : 
+[INFO ] 2021-09-09 00:42:45.520 [main] ShoppingCartPopUp - Postal Code is taking from Properties File : 
+[INFO ] 2021-09-09 00:42:45.528 [main] TestBase - explicit wait for sendKeys is using : [[FirefoxDriver: firefox on WINDOWS (40ddd8b1-c480-4b02-8015-d5911f9a6022)] -> xpath: ((//table[@class='table'])[2]//td[@class='input']//input[@type='text'])[4]]
+[INFO ] 2021-09-09 00:42:45.770 [main] ShoppingCartPopUp - PostalCode field is editable and user can enter PostalCode in it : 
+[INFO ] 2021-09-09 00:42:45.770 [main] TestNGListener - verifyName_Email_Phone_City_Address_PostalCodeFieldsAreEditableAndUserCanEnterDetails
+[INFO ] 2021-09-09 00:42:45.778 [main] TestNGListener - verifyClickingOnCheckoutButtonUserIsRedirectedOnOrderSummaryPopUp
+[INFO ] 2021-09-09 00:42:45.798 [main] TestBase - explicit wait for clicking is using : [[FirefoxDriver: firefox on WINDOWS (40ddd8b1-c480-4b02-8015-d5911f9a6022)] -> xpath: //div[@class='cart-checkout']]
+[INFO ] 2021-09-09 00:42:46.276 [main] TestBase - pause execution for 1 : 
+[INFO ] 2021-09-09 00:42:47.311 [main] TestBase - pause execution for 1 : 
+[INFO ] 2021-09-09 00:42:48.339 [main] TestBase - explicit wait for verifying element is using : [[FirefoxDriver: firefox on WINDOWS (40ddd8b1-c480-4b02-8015-d5911f9a6022)] -> xpath: //div[@class='header-content']/span[contains(.,'Order Summary')]]
+[INFO ] 2021-09-09 00:42:48.435 [main] OrderSummaryScreenPopUp - User is redirected on Order Summary popup after clicked on Checkout button : 
+[INFO ] 2021-09-09 00:42:48.435 [main] TestNGListener - verifyClickingOnCheckoutButtonUserIsRedirectedOnOrderSummaryPopUp
+[INFO ] 2021-09-09 00:42:48.435 [main] TestNGListener - verifyProductDetailsOnOrderSummeryPopUpPriceAndProductName
+[INFO ] 2021-09-09 00:42:48.435 [main] OrderSummaryScreenPopUp - Product Name & Product Cost is taking from Properties File : 
+[INFO ] 2021-09-09 00:42:48.545 [main] OrderSummaryScreenPopUp - Valid Product Name is displayed on Order Summary PopUp : 
+[INFO ] 2021-09-09 00:42:48.566 [main] OrderSummaryScreenPopUp - Valid Product Price is displayed on Order Summary PopUp : 
+[INFO ] 2021-09-09 00:42:48.566 [main] TestNGListener - verifyProductDetailsOnOrderSummeryPopUpPriceAndProductName
+[INFO ] 2021-09-09 00:42:48.566 [main] TestNGListener - verifyClickingOnContinueButtonOnOrderSummeryUserIsRedirectToTheSelectPaymentPopUp
+[INFO ] 2021-09-09 00:42:48.583 [main] TestBase - explicit wait for clicking is using : [[FirefoxDriver: firefox on WINDOWS (40ddd8b1-c480-4b02-8015-d5911f9a6022)] -> xpath: //a[@class='button-main-content']]
+[INFO ] 2021-09-09 00:42:48.881 [main] TestBase - explicit wait for verifying element is using : [[FirefoxDriver: firefox on WINDOWS (40ddd8b1-c480-4b02-8015-d5911f9a6022)] -> xpath: //p[contains(.,'Select Payment')]]
+[INFO ] 2021-09-09 00:42:49.043 [main] SelectPaymentPopUp1 - User redirected to the Select payment Page after clicking on continue button on order summery : 
+[INFO ] 2021-09-09 00:42:49.043 [main] TestNGListener - verifyClickingOnContinueButtonOnOrderSummeryUserIsRedirectToTheSelectPaymentPopUp
+[INFO ] 2021-09-09 00:42:49.043 [main] TestNGListener - verifyPaymentOptionsListedOnPaymentPopUp
+[INFO ] 2021-09-09 00:42:49.099 [main] SelectPaymentPopUp1 - Credit/Debit Card payment option is available in payment mode Options : 
+[INFO ] 2021-09-09 00:42:49.171 [main] SelectPaymentPopUp1 - ATM/Bank Transfer payment option is available in payment mode Options : 
+[INFO ] 2021-09-09 00:42:49.227 [main] SelectPaymentPopUp1 - GoPay/other e-Wallets payment option is available in payment mode Options : 
+[INFO ] 2021-09-09 00:42:49.292 [main] SelectPaymentPopUp1 - ShopeePay/other e-Wallets payment option is available in payment mode Options : 
+[INFO ] 2021-09-09 00:42:49.380 [main] SelectPaymentPopUp1 - KlikBCA payment option is available in payment mode Options : 
+[INFO ] 2021-09-09 00:42:49.437 [main] SelectPaymentPopUp1 - BCA KlikPay payment option is available in payment mode Options : 
+[INFO ] 2021-09-09 00:42:49.489 [main] SelectPaymentPopUp1 - OCTO Clicks payment option is available in payment mode Options : 
+[INFO ] 2021-09-09 00:42:49.545 [main] SelectPaymentPopUp1 - Danamon Online Banking payment option is available in payment mode Options : 
+[INFO ] 2021-09-09 00:42:49.593 [main] SelectPaymentPopUp1 - e-Pay BRI payment option is available in payment mode Options : 
+[INFO ] 2021-09-09 00:42:49.673 [main] SelectPaymentPopUp1 - LINE Pay e-cash | mandiri e-cash payment option is available in payment mode Options : 
+[INFO ] 2021-09-09 00:42:49.730 [main] SelectPaymentPopUp1 - Telkomsel Cash payment option is available in payment mode Options : 
+[INFO ] 2021-09-09 00:42:49.786 [main] SelectPaymentPopUp1 - Indomaret payment option is available in payment mode Options : 
+[INFO ] 2021-09-09 00:42:49.850 [main] SelectPaymentPopUp1 - Alfa Group payment option is available in payment mode Options : 
+[INFO ] 2021-09-09 00:42:49.898 [main] SelectPaymentPopUp1 - Akulaku payment option is available in payment mode Options : 
+[INFO ] 2021-09-09 00:42:49.898 [main] TestNGListener - verifyPaymentOptionsListedOnPaymentPopUp
+[INFO ] 2021-09-09 00:42:49.906 [main] TestNGListener - verifyClickingOnCreditDebitCardPaymentMethodUserIsRedirectedToTheCardDetailsPopUp
+[INFO ] 2021-09-09 00:42:49.916 [main] TestBase - explicit wait for clicking is using : [[FirefoxDriver: firefox on WINDOWS (40ddd8b1-c480-4b02-8015-d5911f9a6022)] -> xpath: //div[@class='list-content']//div[contains(.,'Credit/Debit Card')]]
+[INFO ] 2021-09-09 00:42:50.202 [main] TestBase - explicit wait for verifying element is using : [[FirefoxDriver: firefox on WINDOWS (40ddd8b1-c480-4b02-8015-d5911f9a6022)] -> xpath: //p[@class='text-page-title-content' and contains(.,'Credit/Debit Card')]]
+[INFO ] 2021-09-09 00:42:50.346 [main] CreditDebitCardDetailsScreenPopUp - User redirected to card details screen after clicking on Credit/Debit Card payment method : 
+[INFO ] 2021-09-09 00:42:50.346 [main] TestNGListener - verifyClickingOnCreditDebitCardPaymentMethodUserIsRedirectedToTheCardDetailsPopUp
+[INFO ] 2021-09-09 00:42:50.354 [main] TestNGListener - verifyOrderAmountOnCardDetailsPopUpAndApplyCouponCodeAndValidateChangesInAmount
+[INFO ] 2021-09-09 00:42:50.354 [main] CreditDebitCardDetailsScreenPopUp - Details is taking From Properties File : 
+[INFO ] 2021-09-09 00:42:50.727 [main] CreditDebitCardDetailsScreenPopUp - Before apply promo coupon Amount on card details screen is same as order Amount : 
+[INFO ] 2021-09-09 00:42:51.025 [main] CreditDebitCardDetailsScreenPopUp - After apply promo coupon Amount on card details screen is reflected by 2000 : 
+[INFO ] 2021-09-09 00:42:51.025 [main] TestNGListener - verifyOrderAmountOnCardDetailsPopUpAndApplyCouponCodeAndValidateChangesInAmount
+[INFO ] 2021-09-09 00:42:51.025 [main] TestNGListener - enterValidCardDetails
+[INFO ] 2021-09-09 00:42:51.025 [main] CreditDebitCardDetailsScreenPopUp - Card details is taking from Properties File : 
+[INFO ] 2021-09-09 00:42:51.041 [main] TestBase - explicit wait for sendKeys is using : [[FirefoxDriver: firefox on WINDOWS (40ddd8b1-c480-4b02-8015-d5911f9a6022)] -> xpath: //input[@name='cardnumber']]
+[INFO ] 2021-09-09 00:42:51.477 [main] TestBase - explicit wait for sendKeys is using : [[FirefoxDriver: firefox on WINDOWS (40ddd8b1-c480-4b02-8015-d5911f9a6022)] -> xpath: //input[@placeholder='MM / YY']]
+[INFO ] 2021-09-09 00:42:51.742 [main] TestBase - explicit wait for sendKeys is using : [[FirefoxDriver: firefox on WINDOWS (40ddd8b1-c480-4b02-8015-d5911f9a6022)] -> xpath: //div[@class='input-group col-xs-5']/input]
+[INFO ] 2021-09-09 00:42:51.904 [main] TestNGListener - enterValidCardDetails
+[INFO ] 2021-09-09 00:42:51.912 [main] TestNGListener - verifyClickingOnPayNowButtonUserIsRedirectedToTheBankPaymentScreenPopUpAndVerifyExistingDetails
+[INFO ] 2021-09-09 00:42:51.944 [main] TestBase - explicit wait for clicking is using : [[FirefoxDriver: firefox on WINDOWS (40ddd8b1-c480-4b02-8015-d5911f9a6022)] -> xpath: //a[@class='button-main-content']]
+[INFO ] 2021-09-09 00:42:52.462 [main] TestBase - pause execution for 2 : 
+[INFO ] 2021-09-09 00:42:54.471 [main] TestBase - pause execution for 1 : 
+[INFO ] 2021-09-09 00:42:55.504 [main] TestBase - pause execution for 1 : 
+[INFO ] 2021-09-09 00:42:56.532 [main] TestBase - pause execution for 1 : 
+[INFO ] 2021-09-09 00:42:57.555 [main] TestBase - explicit wait for verifying element is using : [[FirefoxDriver: firefox on WINDOWS (40ddd8b1-c480-4b02-8015-d5911f9a6022)] -> xpath: //h1[contains(.,'Issuing Bank')]]
+[INFO ] 2021-09-09 00:42:57.655 [main] BankPaymentScreenPopUp - User is redirected to the Bank Payment Screen PopUp after clicking on Payment Now Button : 
+[INFO ] 2021-09-09 00:42:57.723 [main] BankPaymentScreenPopUp - Details is taking from Properties File : 
+[INFO ] 2021-09-09 00:42:57.724 [main] BankPaymentScreenPopUp - Merchant name is correct on Bank Payment Screen PopUp : 
+[INFO ] 2021-09-09 00:42:57.724 [main] BankPaymentScreenPopUp - Amount is correct on Bank Payment Screen PopUp : 
+[INFO ] 2021-09-09 00:42:57.724 [main] BankPaymentScreenPopUp - Last four digit of card is correct on Bank Payment Screen PopUp : 
+[INFO ] 2021-09-09 00:42:57.726 [main] BankPaymentScreenPopUp - Valid OTP is taking from Properties File : 
+[INFO ] 2021-09-09 00:42:57.745 [main] TestBase - explicit wait for sendKeys is using : [[FirefoxDriver: firefox on WINDOWS (40ddd8b1-c480-4b02-8015-d5911f9a6022)] -> xpath: //input[@id='PaRes']]
+[INFO ] 2021-09-09 00:42:57.885 [main] TestNGListener - verifyClickingOnPayNowButtonUserIsRedirectedToTheBankPaymentScreenPopUpAndVerifyExistingDetails
+[INFO ] 2021-09-09 00:42:57.886 [main] TestNGListener - verifyClickingOnOKButtonWithValidOTPUserRedirectedToTheOrderSuccessfulScreenPopUp
+[INFO ] 2021-09-09 00:42:57.971 [main] TestBase - explicit wait for clicking is using : [[FirefoxDriver: firefox on WINDOWS (40ddd8b1-c480-4b02-8015-d5911f9a6022)] -> xpath: //button[@class='btn btn-sm btn-success']]
+[INFO ] 2021-09-09 00:42:58.955 [main] TestBase - pause execution for 1 : 
+[INFO ] 2021-09-09 00:43:00.020 [main] TestBase - pause execution for 1 : 
+[INFO ] 2021-09-09 00:43:01.089 [main] OrderSuccessfulScreenPopUp - User is redirected to the order successful screen after clicking on OK button with Valid OTP (112233) : 
+[INFO ] 2021-09-09 00:43:01.089 [main] TestBase - pause execution for 5 : 
+[INFO ] 2021-09-09 00:43:06.097 [main] TestNGListener - verifyClickingOnOKButtonWithValidOTPUserRedirectedToTheOrderSuccessfulScreenPopUp
+[INFO ] 2021-09-09 00:43:06.098 [main] TestNGListener - verifyUserSuccessfullyOrderedProduct
+[INFO ] 2021-09-09 00:43:06.106 [main] TestBase - pause execution for 1 : 
+[INFO ] 2021-09-09 00:43:07.123 [main] TestBase - pause execution for 1 : 
+[INFO ] 2021-09-09 00:43:08.194 [main] MidTransHomePage - Transaction Success Status is Displayed : 
+[INFO ] 2021-09-09 00:43:08.194 [main] MidTransHomePage - Transaction Success Status is taking from Properties File : 
+[INFO ] 2021-09-09 00:43:08.218 [main] MidTransHomePage - Transaction Success Status is as Expected : 
+[INFO ] 2021-09-09 00:43:08.226 [main] TestBase - pause execution for 5 : 
+[INFO ] 2021-09-09 00:43:13.240 [main] TestNGListener - verifyUserSuccessfullyOrderedProduct
+[INFO ] 2021-09-09 00:43:13.240 [main] TestNGListener - verifyClickingOnOKButtonWithInvalidOTPUserRedirectedToTheOrderFailedScreenPopUp
+[INFO ] 2021-09-09 00:43:13.256 [main] TestBase - explicit wait for verifying element is using : [[FirefoxDriver: firefox on WINDOWS (40ddd8b1-c480-4b02-8015-d5911f9a6022)] -> xpath: //a[@class='btn buy']]
+[INFO ] 2021-09-09 00:43:13.390 [main] MidTransHomePage - Buy Now Button is Available on Midtrans Home Page : 
+[INFO ] 2021-09-09 00:43:13.390 [main] TestBase - pause execution for 2 : 
+[INFO ] 2021-09-09 00:43:15.409 [main] TestBase - explicit wait for clicking is using : [[FirefoxDriver: firefox on WINDOWS (40ddd8b1-c480-4b02-8015-d5911f9a6022)] -> xpath: //a[@class='btn buy']]
+[INFO ] 2021-09-09 00:43:15.773 [main] ShoppingCartPopUp - Name is taking from Properties File : 
+[INFO ] 2021-09-09 00:43:15.794 [main] TestBase - explicit wait for sendKeys is using : [[FirefoxDriver: firefox on WINDOWS (40ddd8b1-c480-4b02-8015-d5911f9a6022)] -> xpath: ((//table[@class='table'])[2]//td[@class='input']//input[@type='text'])[1]]
+[INFO ] 2021-09-09 00:43:16.083 [main] ShoppingCartPopUp - Name field is editable and user can enter Name in it : 
+[INFO ] 2021-09-09 00:43:16.083 [main] ShoppingCartPopUp - Email is taking from Properties File : 
+[INFO ] 2021-09-09 00:43:16.091 [main] TestBase - explicit wait for sendKeys is using : [[FirefoxDriver: firefox on WINDOWS (40ddd8b1-c480-4b02-8015-d5911f9a6022)] -> xpath: (//table[@class='table'])[2]//td[@class='input']//input[@type='email']]
+[INFO ] 2021-09-09 00:43:16.439 [main] ShoppingCartPopUp - Email field is editable and user can enter Email in it : 
+[INFO ] 2021-09-09 00:43:16.439 [main] ShoppingCartPopUp - Phone Number is taking from Properties File : 
+[INFO ] 2021-09-09 00:43:16.447 [main] TestBase - explicit wait for sendKeys is using : [[FirefoxDriver: firefox on WINDOWS (40ddd8b1-c480-4b02-8015-d5911f9a6022)] -> xpath: ((//table[@class='table'])[2]//td[@class='input']//input[@type='text'])[2]]
+[INFO ] 2021-09-09 00:43:16.675 [main] ShoppingCartPopUp - PhoneNo field is editable and user can enter PhoneNo in it : 
+[INFO ] 2021-09-09 00:43:16.675 [main] ShoppingCartPopUp - City is taking from Properties File : 
+[INFO ] 2021-09-09 00:43:16.683 [main] TestBase - explicit wait for sendKeys is using : [[FirefoxDriver: firefox on WINDOWS (40ddd8b1-c480-4b02-8015-d5911f9a6022)] -> xpath: ((//table[@class='table'])[2]//td[@class='input']//input[@type='text'])[3]]
+[INFO ] 2021-09-09 00:43:16.905 [main] ShoppingCartPopUp - City field is editable and user can enter City in it : 
+[INFO ] 2021-09-09 00:43:16.905 [main] ShoppingCartPopUp - Address is taking from Properties File : 
+[INFO ] 2021-09-09 00:43:16.913 [main] TestBase - explicit wait for sendKeys is using : [[FirefoxDriver: firefox on WINDOWS (40ddd8b1-c480-4b02-8015-d5911f9a6022)] -> xpath: (//table[@class='table'])[2]//td[@class='input']//textarea]
+[INFO ] 2021-09-09 00:43:17.225 [main] ShoppingCartPopUp - Address field is editable and user can enter Address in it : 
+[INFO ] 2021-09-09 00:43:17.225 [main] ShoppingCartPopUp - Postal Code is taking from Properties File : 
+[INFO ] 2021-09-09 00:43:17.233 [main] TestBase - explicit wait for sendKeys is using : [[FirefoxDriver: firefox on WINDOWS (40ddd8b1-c480-4b02-8015-d5911f9a6022)] -> xpath: ((//table[@class='table'])[2]//td[@class='input']//input[@type='text'])[4]]
+[INFO ] 2021-09-09 00:43:17.457 [main] ShoppingCartPopUp - PostalCode field is editable and user can enter PostalCode in it : 
+[INFO ] 2021-09-09 00:43:17.457 [main] TestBase - pause execution for 2 : 
+[INFO ] 2021-09-09 00:43:19.476 [main] TestBase - explicit wait for clicking is using : [[FirefoxDriver: firefox on WINDOWS (40ddd8b1-c480-4b02-8015-d5911f9a6022)] -> xpath: //div[@class='cart-checkout']]
+[INFO ] 2021-09-09 00:43:19.844 [main] TestBase - pause execution for 1 : 
+[INFO ] 2021-09-09 00:43:20.867 [main] TestBase - pause execution for 1 : 
+[INFO ] 2021-09-09 00:43:21.868 [main] TestBase - pause execution for 2 : 
+[INFO ] 2021-09-09 00:43:23.886 [main] TestBase - explicit wait for clicking is using : [[FirefoxDriver: firefox on WINDOWS (40ddd8b1-c480-4b02-8015-d5911f9a6022)] -> xpath: //a[@class='button-main-content']]
+[INFO ] 2021-09-09 00:43:24.005 [main] TestBase - pause execution for 2 : 
+[INFO ] 2021-09-09 00:43:26.038 [main] TestBase - explicit wait for clicking is using : [[FirefoxDriver: firefox on WINDOWS (40ddd8b1-c480-4b02-8015-d5911f9a6022)] -> xpath: //div[@class='list-content']//div[contains(.,'Credit/Debit Card')]]
+[INFO ] 2021-09-09 00:43:26.228 [main] CreditDebitCardDetailsScreenPopUp - Card details is taking from Properties File : 
+[INFO ] 2021-09-09 00:43:26.338 [main] TestBase - explicit wait for sendKeys is using : [[FirefoxDriver: firefox on WINDOWS (40ddd8b1-c480-4b02-8015-d5911f9a6022)] -> xpath: //input[@name='cardnumber']]
+[INFO ] 2021-09-09 00:43:27.280 [main] TestBase - explicit wait for sendKeys is using : [[FirefoxDriver: firefox on WINDOWS (40ddd8b1-c480-4b02-8015-d5911f9a6022)] -> xpath: //input[@placeholder='MM / YY']]
+[INFO ] 2021-09-09 00:43:27.447 [main] TestBase - explicit wait for sendKeys is using : [[FirefoxDriver: firefox on WINDOWS (40ddd8b1-c480-4b02-8015-d5911f9a6022)] -> xpath: //div[@class='input-group col-xs-5']/input]
+[INFO ] 2021-09-09 00:43:27.649 [main] TestBase - pause execution for 2 : 
+[INFO ] 2021-09-09 00:43:29.668 [main] TestBase - explicit wait for clicking is using : [[FirefoxDriver: firefox on WINDOWS (40ddd8b1-c480-4b02-8015-d5911f9a6022)] -> xpath: //a[@class='button-main-content']]
+[INFO ] 2021-09-09 00:43:30.062 [main] TestBase - pause execution for 1 : 
+[INFO ] 2021-09-09 00:43:31.103 [main] TestBase - pause execution for 1 : 
+[INFO ] 2021-09-09 00:43:32.132 [main] TestBase - pause execution for 1 : 
+[INFO ] 2021-09-09 00:43:33.136 [main] BankPaymentScreenPopUp - Invalid OTP is taking from Properties FIle : 
+[INFO ] 2021-09-09 00:43:33.160 [main] TestBase - explicit wait for sendKeys is using : [[FirefoxDriver: firefox on WINDOWS (40ddd8b1-c480-4b02-8015-d5911f9a6022)] -> xpath: //input[@id='PaRes']]
+[INFO ] 2021-09-09 00:43:33.288 [main] TestBase - pause execution for 2 : 
+[INFO ] 2021-09-09 00:43:35.314 [main] TestBase - explicit wait for clicking is using : [[FirefoxDriver: firefox on WINDOWS (40ddd8b1-c480-4b02-8015-d5911f9a6022)] -> xpath: //button[@class='btn btn-sm btn-success']]
+[INFO ] 2021-09-09 00:43:36.354 [main] TestBase - pause execution for 1 : 
+[INFO ] 2021-09-09 00:43:37.400 [main] TestBase - pause execution for 1 : 
+[INFO ] 2021-09-09 00:43:38.418 [main] TestBase - explicit wait for verifying element is using : [[FirefoxDriver: firefox on WINDOWS (40ddd8b1-c480-4b02-8015-d5911f9a6022)] -> xpath: //div[@class='text-failed text-bold']/span]
+[INFO ] 2021-09-09 00:43:38.522 [main] OrderFailedScreenPopUp - User is redirected to the order failed screen after clicking on OK button with Invalid OTP (1234321) : 
+[INFO ] 2021-09-09 00:43:38.522 [main] TestBase - pause execution for 5 : 
+[INFO ] 2021-09-09 00:43:43.537 [main] TestNGListener - verifyClickingOnOKButtonWithInvalidOTPUserRedirectedToTheOrderFailedScreenPopUp
+[INFO ] 2021-09-09 00:43:43.537 [main] TestNGListener - verifyClickingOnCancelButtonUserShouldRedirectedToTheOrderFailedScreenPopUp
+[INFO ] 2021-09-09 00:43:43.553 [main] TestBase - explicit wait for clicking is using : [[FirefoxDriver: firefox on WINDOWS (40ddd8b1-c480-4b02-8015-d5911f9a6022)] -> xpath: //a[@class='button-main-content']]
+[INFO ] 2021-09-09 00:43:43.689 [main] TestBase - pause execution for 2 : 
+[INFO ] 2021-09-09 00:43:45.705 [main] TestBase - explicit wait for clicking is using : [[FirefoxDriver: firefox on WINDOWS (40ddd8b1-c480-4b02-8015-d5911f9a6022)] -> xpath: //div[@class='list-content']//div[contains(.,'Credit/Debit Card')]]
+[INFO ] 2021-09-09 00:43:45.817 [main] CreditDebitCardDetailsScreenPopUp - Card details is taking from Properties File : 
+[INFO ] 2021-09-09 00:43:45.929 [main] TestBase - explicit wait for sendKeys is using : [[FirefoxDriver: firefox on WINDOWS (40ddd8b1-c480-4b02-8015-d5911f9a6022)] -> xpath: //input[@name='cardnumber']]
+[INFO ] 2021-09-09 00:43:46.318 [main] TestBase - explicit wait for sendKeys is using : [[FirefoxDriver: firefox on WINDOWS (40ddd8b1-c480-4b02-8015-d5911f9a6022)] -> xpath: //input[@placeholder='MM / YY']]
+[INFO ] 2021-09-09 00:43:46.501 [main] TestBase - explicit wait for sendKeys is using : [[FirefoxDriver: firefox on WINDOWS (40ddd8b1-c480-4b02-8015-d5911f9a6022)] -> xpath: //div[@class='input-group col-xs-5']/input]
+[INFO ] 2021-09-09 00:43:46.669 [main] TestBase - pause execution for 2 : 
+[INFO ] 2021-09-09 00:43:48.694 [main] TestBase - explicit wait for clicking is using : [[FirefoxDriver: firefox on WINDOWS (40ddd8b1-c480-4b02-8015-d5911f9a6022)] -> xpath: //a[@class='button-main-content']]
+[INFO ] 2021-09-09 00:43:49.062 [main] TestBase - pause execution for 1 : 
+[INFO ] 2021-09-09 00:43:50.093 [main] TestBase - pause execution for 1 : 
+[INFO ] 2021-09-09 00:43:51.110 [main] TestBase - pause execution for 1 : 
+[INFO ] 2021-09-09 00:43:52.112 [main] BankPaymentScreenPopUp - Invalid OTP is taking from Properties FIle : 
+[INFO ] 2021-09-09 00:43:52.128 [main] TestBase - explicit wait for sendKeys is using : [[FirefoxDriver: firefox on WINDOWS (40ddd8b1-c480-4b02-8015-d5911f9a6022)] -> xpath: //input[@id='PaRes']]
+[INFO ] 2021-09-09 00:43:52.281 [main] TestBase - pause execution for 2 : 
+[INFO ] 2021-09-09 00:43:54.320 [main] TestBase - explicit wait for clicking is using : [[FirefoxDriver: firefox on WINDOWS (40ddd8b1-c480-4b02-8015-d5911f9a6022)] -> xpath: //button[@name='cancel']]
+[INFO ] 2021-09-09 00:43:55.123 [main] TestBase - pause execution for 1 : 
+[INFO ] 2021-09-09 00:43:56.150 [main] TestBase - pause execution for 1 : 
+[INFO ] 2021-09-09 00:43:57.189 [main] TestBase - explicit wait for verifying element is using : [[FirefoxDriver: firefox on WINDOWS (40ddd8b1-c480-4b02-8015-d5911f9a6022)] -> xpath: //div[@class='text-failed text-bold']/span]
+[INFO ] 2021-09-09 00:43:57.310 [main] OrderFailedScreenPopUp - User is redirected to the order failed screen after clicking on OK button with Invalid OTP (1234321) : 
+[INFO ] 2021-09-09 00:43:57.310 [main] TestBase - pause execution for 2 : 
+[INFO ] 2021-09-09 00:43:59.311 [main] TestNGListener - verifyClickingOnCancelButtonUserShouldRedirectedToTheOrderFailedScreenPopUp
+[INFO ] 2021-09-09 00:44:01.102 [main] TestNGListener - Firefox Browser Testing
