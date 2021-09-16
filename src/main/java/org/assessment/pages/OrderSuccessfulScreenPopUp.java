@@ -37,12 +37,6 @@ public class OrderSuccessfulScreenPopUp extends BaseClass {
     //verify order successful screen PopUp
     public boolean verifyUserIsOnOrderSuccessfulScreenPopUp () {
 
-        pauseExecution(1);
-        switchDefaultContent();
-        frameSwitchTo(0);
-//        pauseExecution(1);
-//        frameSwitchTo(0);
-        pauseExecution(1);
         boolean flag = false;
         if (paymentSuccessfulMessage.isDisplayed()) {
 
@@ -58,12 +52,6 @@ public class OrderSuccessfulScreenPopUp extends BaseClass {
     //verify payment successful message
     public boolean verifyPaymentSuccessfulMsg (String expectedTransactionSuccessfulMessageX) {
 
-        pauseExecution(1);
-        switchDefaultContent();
-        frameSwitchTo(0);
-//        pauseExecution(1);
-//        frameSwitchTo(0);
-        pauseExecution(1);
         boolean flag = false;
 
         String actualMsg   = paymentSuccessfulMessage.getText();
@@ -98,12 +86,6 @@ public class OrderSuccessfulScreenPopUp extends BaseClass {
     //verify order successful screen PopUp
     public boolean verifyUserIsOnOrderSuccessfulScreenPopUpByIcon () {
 
-        pauseExecution(1);
-        switchDefaultContent();
-        frameSwitchTo(0);
-//        pauseExecution(1);
-//        frameSwitchTo(0);
-        pauseExecution(1);
         explicitWaitForVerifyingElement(driver , 10 , icon);
         boolean flag = false;
         if (icon.isDisplayed()) {
@@ -120,12 +102,6 @@ public class OrderSuccessfulScreenPopUp extends BaseClass {
     //verify order successful screen PopUp
     public boolean verifyUserIsOnOrderSuccessfulScreenPopUpByByDoneButton () {
 
-        pauseExecution(1);
-        switchDefaultContent();
-        frameSwitchTo(0);
-//        pauseExecution(1);
-//        frameSwitchTo(0);
-        pauseExecution(1);
         explicitWaitForVerifyingElement(driver , 10 , doneButton);
         boolean flag = false;
         if (doneButton.isDisplayed()) {

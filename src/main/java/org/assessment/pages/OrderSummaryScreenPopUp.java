@@ -42,7 +42,6 @@ public class OrderSummaryScreenPopUp extends BaseClass {
     public boolean verifyUserIsOnOrderSummaryPopUp() {
 
         explicitWaitForVerifyingElement(driver , 40 , orderSummary);
-        //driver.switchTo().frame(0);
         boolean flag = false;
         if (orderSummary.isDisplayed()) {
 

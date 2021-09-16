@@ -37,10 +37,6 @@ public class OrderFailedScreenPopUp extends BaseClass {
     //Verify clicking on OK button with Invalid OTP should redirect user to order failed screen
     public boolean verifyUserIsOnOrderFailedScreenPopUp () {
 
-        pauseExecution(1);
-        switchDefaultContent();
-        frameSwitchTo(0);
-        pauseExecution(1);
         boolean flag = false;
         explicitWaitForVerifyingElement(driver , 40 , transactionFailedMessage);
         if (transactionFailedMessage.isDisplayed()) {

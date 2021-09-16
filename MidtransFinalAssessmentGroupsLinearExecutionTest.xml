@@ -4,9 +4,14 @@
 
     <groups>
         <run>
-            <include name="Regression"/>
+<!--            <include name="Regression"/>-->
+            <include name="Smoke"/>
         </run>
     </groups>
+
+    <listeners>
+        <listener class-name="org.assessment.utils.ExtentReportListener"/>
+    </listeners>
 
     <test name="Chrome Browser Testing">
 

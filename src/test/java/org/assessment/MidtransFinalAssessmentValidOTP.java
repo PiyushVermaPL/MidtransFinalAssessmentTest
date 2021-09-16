@@ -48,7 +48,6 @@ public class MidtransFinalAssessmentValidOTP {
     public void enterURL(@Optional String urlX) {
 
         baseClass.launchUrl(urlX);
-//        testBase.pauseExecution(2);
     }
 
     @Test(priority = 2 , groups = {"Regression" , "Smoke"})
@@ -56,7 +55,6 @@ public class MidtransFinalAssessmentValidOTP {
 
         Assert.assertTrue(midTransHomePage.checkAvailabilityOfBuyNowButton());
         midTransHomePage.clickOnBuyNowButton();
-//        testBase.pauseExecution(2);
         Assert.assertTrue(shoppingCartPopUp.verifyUserIsOnCheckOutPopUp());
     }
 
@@ -65,14 +63,12 @@ public class MidtransFinalAssessmentValidOTP {
     public void VerifyMidtransPillowAddedInToCart (@Optional String productNameX , @Optional String productCostX) {
 
         Assert.assertTrue(shoppingCartPopUp.verifyProductAndPrice(productNameX , productCostX));
-//        testBase.pauseExecution(2);
     }
 
     @Test(priority = 4 , groups = {"Regression"})
     public void verifyName_Email_Phone_City_Address_PostalCodeOnCheckoutPage () {
 
         Assert.assertTrue(shoppingCartPopUp.verifyLabelsOnCheckOutPopUp());
-//        testBase.pauseExecution(2);
     }
 
     @Parameters({"NameX" , "EmailX" , "PhoneX" , "CityX" , "AddressX" , "PostalCodeX"})
@@ -80,16 +76,14 @@ public class MidtransFinalAssessmentValidOTP {
     public void verifyName_Email_Phone_City_Address_PostalCodeFieldsAreEditableAndUserCanEnterDetails (@Optional String nameX , @Optional String emailX , @Optional String phoneX , @Optional String cityX , @Optional String addressX ,@Optional String postalCodeX) {
 
         Assert.assertTrue(shoppingCartPopUp.verifyTextFieldsAreEditable(nameX , emailX , phoneX , cityX , addressX , postalCodeX));
-//        testBase.pauseExecution(2);
     }
 
     @Test(priority = 6 , groups = {"Regression" , "Smoke"})
     public void verifyClickingOnCheckoutButtonUserIsRedirectedOnOrderSummaryPopUp () {
 
         shoppingCartPopUp.clickOnCheckOutButton();
-//        testBase.pauseExecution(2);
+                testBase.pauseExecution(1);     testBase.frameSwitchTo(0);      testBase.pauseExecution(1);
         Assert.assertTrue(orderSummaryScreenPopUp.verifyUserIsOnOrderSummaryPopUp());
-//        testBase.pauseExecution(2);
     }
 
     @Parameters({"ProductNameX" , "ProductCostX"})
@@ -97,7 +91,6 @@ public class MidtransFinalAssessmentValidOTP {
     public void verifyProductDetailsOnOrderSummeryPopUpPriceAndProductName (@Optional String productNameX , @Optional String productCostX) {
 
         Assert.assertTrue(orderSummaryScreenPopUp.verifyProductDetailsOnOrderSummaryPopUp(productNameX , productCostX));
-//        testBase.pauseExecution(2);
     }
 
     @Test(priority = 8 , groups = {"Regression" , "Smoke"})
@@ -105,23 +98,19 @@ public class MidtransFinalAssessmentValidOTP {
 
         orderSummaryScreenPopUp.clickOnContinueButton();
         Assert.assertTrue(selectPaymentPopUp.verifyUserIsOnSelectPaymentPopUp());
-//        testBase.pauseExecution(2);
     }
 
     @Test(priority = 9 , groups = {"Regression"})
     public void verifyPaymentOptionsListedOnPaymentPopUp () {
 
         Assert.assertTrue(selectPaymentPopUp.verifyPaymentModeOptions());
-//        testBase.pauseExecution(2);
     }
 
     @Test(priority = 10 , groups = {"Regression" , "Smoke"})
     public void verifyClickingOnCreditDebitCardPaymentMethodUserIsRedirectedToTheCardDetailsPopUp () {
 
         selectPaymentPopUp.clickOnCreditDebitCardPaymentOption();
-//        testBase.pauseExecution(2);
         Assert.assertTrue(creditDebitCardDetailsScreenPopUp.verifyUserIsOnCreditDebitCardDetailsPopUp());
-//        testBase.pauseExecution(2);
     }
 
     @Parameters({"AmountBeforeApplyPromoX" , "AmountAfterApplyPromoX"})
@@ -129,7 +118,6 @@ public class MidtransFinalAssessmentValidOTP {
     public void verifyOrderAmountOnCardDetailsPopUpAndApplyCouponCodeAndValidateChangesInAmount (@Optional String amountBeforeApplyPromoX , @Optional String amountAfterApplyPromoX) {
 
         Assert.assertTrue(creditDebitCardDetailsScreenPopUp.verifyOrderAmountBeforeAndAfterApplyPromo(amountBeforeApplyPromoX , amountAfterApplyPromoX));
-//        testBase.pauseExecution(2);
     }
 
     @Parameters({"CardNumberValX" , "ExpiryDateValX" , "CvvValX"})
@@ -137,7 +125,6 @@ public class MidtransFinalAssessmentValidOTP {
     public void enterValidCardDetails (@Optional String cardNumberValX , @Optional String expiryDateValX , @Optional String cvvValX) {
 
         creditDebitCardDetailsScreenPopUp.enterCardDetails(cardNumberValX , expiryDateValX , cvvValX);
-//        testBase.pauseExecution(2);
     }
 
     @Parameters({"ExpectedMerchantNameX" , "ExpectedAmountX" , "ExpectedCardNumberX" , "ValidOTPX"})
@@ -145,11 +132,10 @@ public class MidtransFinalAssessmentValidOTP {
     public void verifyClickingOnPayNowButtonUserIsRedirectedToTheBankPaymentScreenPopUpAndVerifyExistingDetails (@Optional String expectedMerchantNameX , @Optional String expectedAmountX , @Optional String expectedCardNumberX , @Optional String validOTPX) {
 
         creditDebitCardDetailsScreenPopUp.clickOnPayNowButton();
-        testBase.pauseExecution(2);
+                testBase.pauseExecution(1);     testBase.switchDefaultContent();    testBase.frameSwitchTo(0);      testBase.pauseExecution(1);     testBase.frameSwitchTo(0);      testBase.pauseExecution(2);
         Assert.assertTrue(bankPaymentScreenPopUp.verifyUserIsOnBankPaymentScreenPopUp());
         Assert.assertTrue(bankPaymentScreenPopUp.verifyDetailsOnBankPaymentScreen(expectedMerchantNameX , expectedAmountX , expectedCardNumberX));
         bankPaymentScreenPopUp.enterValidOTP(validOTPX);
-//        testBase.pauseExecution(2);
     }
 
     @Parameters({"ExpectedTransactionSuccessfulMessageX"})
@@ -157,10 +143,8 @@ public class MidtransFinalAssessmentValidOTP {
     public void verifyClickingOnOKButtonWithValidOTPUserRedirectedToTheOrderSuccessfulScreenPopUp (@Optional String expectedTransactionSuccessfulMessageX) {
 
         bankPaymentScreenPopUp.clickOnOkButtonForOrderSuccessfulScreenPopUp();
+                testBase.pauseExecution(1);     testBase.switchDefaultContent();        testBase.frameSwitchTo(0);      testBase.pauseExecution(1);
         Assert.assertTrue(orderSuccessfulScreenPopUp.verifyUserIsOnOrderSuccessfulScreenPopUp());
-        //Assert.assertTrue(orderSuccessfulScreenPopUp.verifyPaymentSuccessfulMsg(expectedTransactionSuccessfulMessageX));
-        //Assert.assertTrue(orderSuccessfulScreenPopUp.verifyUserIsOnOrderSuccessfulScreenPopUpByIcon());
-        //Assert.assertTrue(orderSuccessfulScreenPopUp.verifyUserIsOnOrderSuccessfulScreenPopUpByByDoneButton());
         testBase.pauseExecution(5);
     }
 
@@ -169,9 +153,9 @@ public class MidtransFinalAssessmentValidOTP {
     public void verifyUserSuccessfullyOrderedProduct (@Optional String transactionSuccessStatusX) {
 
         testBase.setZoomLevelDecrease(2);
-//        testBase.pauseExecution(2);
         Assert.assertTrue(midTransHomePage.verifyTransactionSuccessStatus(transactionSuccessStatusX));
-        testBase.pauseExecution(5);
+        testBase.setZoomLevelIncrease(2);
+                testBase.pauseExecution(5);
     }
 
     @AfterTest

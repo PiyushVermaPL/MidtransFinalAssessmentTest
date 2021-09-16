@@ -397,9 +397,6 @@ public class ShoppingCartPopUp extends BaseClass {
     public OrderSummaryScreenPopUp clickOnCheckOutButton() {
 
         explicitWaitForClick(driver , 40 , checkOut);
-        pauseExecution(1);
-        frameSwitchTo(0);
-        pauseExecution(1);
         return new OrderSummaryScreenPopUp(driver);
     }
 

@@ -204,7 +204,6 @@ public class CreditDebitCardDetailsScreenPopUp extends  BaseClass {
     public BankPaymentScreenPopUp clickOnPayNowButton () {
 
         explicitWaitForClick(driver , 40 , payNowButton);
-        frameSwitchTo(0);
         return new BankPaymentScreenPopUp(driver);
     }
 }

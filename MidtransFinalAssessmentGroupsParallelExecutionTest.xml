@@ -6,6 +6,11 @@
             <include name="Regression"/>
         </run>
     </groups>
+
+    <listeners>
+        <listener class-name="org.assessment.utils.ExtentReportListener"/>
+    </listeners>
+
     <test name="Chrome Browser Testing">
 
         <parameter name="BrowserNameX" value="CHROME"/>

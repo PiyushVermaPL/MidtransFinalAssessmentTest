@@ -58,12 +58,6 @@ public class BankPaymentScreenPopUp extends BaseClass {
     //verify bank Payment Screen PopUp
     public boolean verifyUserIsOnBankPaymentScreenPopUp () {
 
-        pauseExecution(1);
-        switchDefaultContent();
-        frameSwitchTo(0);
-        pauseExecution(1);
-        frameSwitchTo(0);
-        pauseExecution(1);
         explicitWaitForVerifyingElement(driver , 40 , bankPaymentScreen);
         boolean flag = false;
         if (bankPaymentScreen.isDisplayed()) {
@@ -80,12 +74,6 @@ public class BankPaymentScreenPopUp extends BaseClass {
     //verify details on bank payment screen
     public boolean verifyDetailsOnBankPaymentScreen (String expectedMerchantNameX , String expectedAmountX , String expectedCardNumberX) {
 
-//        pauseExecution(1);
-//        switchDefaultContent();
-//        frameSwitchTo(0);
-//        pauseExecution(1);
-//        frameSwitchTo(0);
-//        pauseExecution(1);
         boolean flag1 = false;
         boolean flag2 = false;
         boolean flag3 = false;
